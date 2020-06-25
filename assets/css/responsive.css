@@ -1,0 +1,110 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .container{
+        width: 970px;
+    }
+  
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+ .container{
+     width: 750px;
+ }
+ .chefs-area .col-3{
+    width: 50%;
+}
+.single-chef img {
+    width: 100%;
+}
+.chef-content p {
+    transform: translate(-50%,-30%);
+}
+   
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    
+    .container{
+        width: 100%;
+    }
+    h2{
+        font-size: 15px !important;
+    }
+    p{
+        font-size: 12px !important;
+    }
+    .logo {
+        width: 70px;
+    }
+    .sticky-menu .logo a {
+        width: 100%;
+        display: inline-block;
+    }
+    .slider-inner {
+        margin-top: 0; 
+    }
+    .section-title {
+        font-size: 11px;
+    }
+    .menu-img {
+        width: 100%;
+    }
+    .menu-img img {
+        width: 100%;
+    }
+    .single-menu {
+        margin-bottom: 17px;
+    }
+    .cus-name {
+        font-size: 16px;
+    }
+    .col-4 ,.col-3{
+        width: 100%;
+    }
+    .fav-active.owl-carousel .owl-dots {
+        top: -30px;
+    }
+    .pd-80 {
+        padding: 50px 0;
+    }
+    .banner-area.bg {
+        height: 69px;
+    }
+    .single-event {
+        margin-bottom: 20px;
+    }
+    .single-story p {
+        margin-bottom: 10px;
+    }
+    .chef-content p {
+        margin-top: 81px;
+    }
+    .chef-info {
+        margin-bottom: 10px;
+    }
+    .chef-info span {
+        font-size: 12px;
+    }
+
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+    .container{
+        width: 450px;
+    }
+    .col-3{
+        width: 50%;
+    }
+    .chef-content p {
+         margin-top: 0;
+    }
+}
