@@ -15,6 +15,9 @@
  .chefs-area .col-3{
     width: 50%;
 }
+.single-chef {
+	width:100%;
+}
 .single-chef img {
     width: 100%;
 }

@@ -308,6 +308,9 @@ header.sticky-menu {
 	position: relative;
 	z-index: 2;
 }
+.single-menu img {
+	width: 100%;
+}
 .menu-img img {
 	border-radius: 5px;
 }
@@ -479,6 +482,9 @@ header.story-header .header-content {
 	padding: 11px;
 	background: #333;
   }
+  .single-event img {
+	width: 100%;
+}
   .event-content {
 	color: #fff;
 	text-align: center;
@@ -508,6 +514,9 @@ header.story-header .header-content {
 	position: relative;
 	border: 1px solid #db935e;
 	cursor: pointer;
+}
+.single-chef img{
+	width: 100%;
 }
 .chef-content {
 	position: absolute;
